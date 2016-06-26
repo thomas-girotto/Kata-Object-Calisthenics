@@ -40,6 +40,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Amounts\Amount.cs" />
+    <Compile Include="Amounts\Balance.cs" />
+    <Compile Include="Amounts\Credit.cs" />
+    <Compile Include="Amounts\Debit.cs" />
+    <Compile Include="Amounts\Way.cs" />
+    <Compile Include="BankAccount.cs" />
+    <Compile Include="BankStatement.cs" />
+    <Compile Include="IPrinter.cs" />
+    <Compile Include="Utils\DateTimeProvider.cs" />
+    <Compile Include="DateTransaction.cs" />
+    <Compile Include="Utils\DefaultDateTimeProvider.cs" />
+    <Compile Include="Utils\IDateTimeProvider.cs" />
+    <Compile Include="Transaction.cs" />
+    <Compile Include="TransactionsHistory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

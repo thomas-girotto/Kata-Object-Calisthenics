@@ -69,12 +69,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BankAccountTest.cs" />
+    <Compile Include="ConstantDateTimeProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TransactionTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BankAccountKata\BankAccountKata.csproj">
+      <Project>{b7d18237-b95e-43a2-ab4d-761cac4cd57a}</Project>
+      <Name>BankAccountKata</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
